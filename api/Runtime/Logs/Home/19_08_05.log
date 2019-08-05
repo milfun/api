@@ -1,0 +1,340 @@
+[ 2019-08-05T17:23:47+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0430s ]
+
+[ 2019-08-05T17:24:08+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0567s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0564s ]
+
+[ 2019-08-05T17:24:50+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0502s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0489s ]
+
+[ 2019-08-05T17:25:12+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0439s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0437s ]
+
+[ 2019-08-05T17:25:23+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0495s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0493s ]
+
+[ 2019-08-05T17:25:51+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0485s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0482s ]
+
+[ 2019-08-05T17:26:02+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0527s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0530s ]
+
+[ 2019-08-05T17:26:10+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0574s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0568s ]
+
+[ 2019-08-05T17:26:41+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0577s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0577s ]
+
+[ 2019-08-05T17:27:00+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002569s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0435s ]
+
+[ 2019-08-05T17:27:46+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004649s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0497s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0497s ]
+
+[ 2019-08-05T17:28:09+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0439s ]
+
+[ 2019-08-05T17:28:18+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0575s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0570s ]
+
+[ 2019-08-05T17:28:26+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0503s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0493s ]
+
+[ 2019-08-05T17:28:37+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0439s ]
+
+[ 2019-08-05T17:28:56+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0441s ]
+
+[ 2019-08-05T17:29:48+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0477s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0469s ]
+
+[ 2019-08-05T17:34:14+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002751s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0440s ]
+
+[ 2019-08-05T17:35:26+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003418s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0449s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0444s ]
+
+[ 2019-08-05T17:35:53+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000360s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0436s ]
+
+[ 2019-08-05T17:36:18+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006344s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0439s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0436s ]
+
+[ 2019-08-05T17:36:37+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0507s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0505s ]
+
+[ 2019-08-05T17:37:01+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0442s ]
+
+[ 2019-08-05T17:38:00+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0488s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0469s ]
+
+[ 2019-08-05T17:38:51+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0388s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0379s ]
+
+[ 2019-08-05T17:39:39+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0436s ]
+
+[ 2019-08-05T17:41:03+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0525s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0523s ]
+
+[ 2019-08-05T17:41:33+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0507s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0493s ]
+
+[ 2019-08-05T17:42:00+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004111s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0508s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0496s ]
+
+[ 2019-08-05T17:42:15+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0486s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0479s ]
+
+[ 2019-08-05T17:43:13+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0517s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0515s ]
+
+[ 2019-08-05T17:44:14+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0384s ]
+
+[ 2019-08-05T17:44:57+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002104s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0427s ]
+
+[ 2019-08-05T17:45:00+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `app_article` WHERE `aid` = 10001 LIMIT 1   [ RunTime:0.0530s ]
+

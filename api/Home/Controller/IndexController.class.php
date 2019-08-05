@@ -24,16 +24,25 @@ class IndexController extends Controller {
     }
     public function getarticle()//获取米饭日记文章内容
     {
-        $this->checkKey();
+        
         header("Content-Type: text/html;charset=utf-8");
         header('Access-Control-Allow-Origin:*');
         header('Access-Control-Allow-Methods:OPTIONS, GET, POST'); 
         header('Access-Control-Allow-Headers:x-requested-with'); //
         $a=M('Article');
         $data2['aid']=10001;
+
         $list=$a->where($data2)->find();
         //echo $data;
-        $this->ajaxReturn(1,'',$list);
+        if ($list) {
+            $data['status']=1;
+            $data['info']='获取数据成功！';
+            $data['list']=$list;
+        }else{
+            $data['status']=0;
+            $data['info']='获取数据失败！';
+        }
+        $this->ajaxReturn($data);
     }
     public function detail_p()//获取评论
     {
