@@ -1,0 +1,1743 @@
+[ 2019-08-14T11:54:15+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0367s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0352s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0362s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0353s ]
+
+[ 2019-08-14T11:56:21+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006095s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0452s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0435s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'undefined' LIMIT 1   [ RunTime:0.0442s ]
+
+[ 2019-08-14T11:56:40+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0448s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0443s ]
+
+[ 2019-08-14T11:56:40+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0354s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `app_signlist` WHERE `signday` LIKE '%2019-08-14%'  [ RunTime:0.0384s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0386s ]
+NOTIC: [8] Undefined variable: cb D:\MilFun\Apache24\htdocs\api\api\Home\Controller\IndexController.class.php 第 70 行.
+
+[ 2019-08-14T11:56:40+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=043pgb1d00B9Oz1IEq1d08Ug1d0pgb1e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+
+[ 2019-08-14T11:56:42+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getMembersInfos&secretKey=MilFun&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0356s ]
+
+[ 2019-08-14T11:56:44+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0438s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0435s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0434s ]
+
+[ 2019-08-14T11:57:02+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0444s ]
+
+[ 2019-08-14T11:57:03+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0365s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0363s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0367s ]
+SQL: SELECT * FROM `app_signlist` WHERE `signday` LIKE '%2019-08-14%'  [ RunTime:0.0362s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0379s ]
+NOTIC: [8] Undefined variable: cb D:\MilFun\Apache24\htdocs\api\api\Home\Controller\IndexController.class.php 第 70 行.
+
+[ 2019-08-14T11:57:03+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=0239URqu11b4Td0vxCpu1zp5ru19URqC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+
+[ 2019-08-14T11:57:04+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getMembersInfos&secretKey=MilFun&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0494s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0488s ]
+
+[ 2019-08-14T11:57:05+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0444s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0443s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0448s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0454s ]
+
+[ 2019-08-14T11:58:33+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0508s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0503s ]
+
+[ 2019-08-14T11:58:33+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0493s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0487s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0484s ]
+SQL: SELECT * FROM `app_signlist` WHERE `signday` LIKE '%2019-08-14%'  [ RunTime:0.0483s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0491s ]
+NOTIC: [8] Undefined variable: cb D:\MilFun\Apache24\htdocs\api\api\Home\Controller\IndexController.class.php 第 70 行.
+
+[ 2019-08-14T11:58:33+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=043vn0GA1y1Qjd0sb6HA1fTYFA1vn0Gw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+
+[ 2019-08-14T11:58:50+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0361s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0354s ]
+
+[ 2019-08-14T11:58:50+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0452s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `app_signlist` WHERE `signday` LIKE '%2019-08-14%'  [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0464s ]
+NOTIC: [8] Undefined variable: cb D:\MilFun\Apache24\htdocs\api\api\Home\Controller\IndexController.class.php 第 70 行.
+
+[ 2019-08-14T11:58:50+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=0230TmZI0qlqqf2RPiYI0ELgZI00TmZa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+
+[ 2019-08-14T11:58:52+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getMembersInfos&secretKey=MilFun&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0454s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.1650s ]
+
+[ 2019-08-14T11:58:53+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0492s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0487s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0493s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0486s ]
+
+[ 2019-08-14T11:59:05+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0363s ]
+
+[ 2019-08-14T11:59:05+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0506s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0505s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0513s ]
+SQL: SELECT * FROM `app_signlist` WHERE `signday` LIKE '%2019-08-14%'  [ RunTime:0.0510s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0509s ]
+NOTIC: [8] Undefined variable: cb D:\MilFun\Apache24\htdocs\api\api\Home\Controller\IndexController.class.php 第 70 行.
+
+[ 2019-08-14T11:59:05+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=033MlFnP1jk0291PT4nP124PnP1MlFnU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+
+[ 2019-08-14T11:59:06+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getMembersInfos&secretKey=MilFun&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0507s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0506s ]
+
+[ 2019-08-14T11:59:07+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0399s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0398s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0399s ]
+
+[ 2019-08-14T11:59:54+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0375s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0372s ]
+
+[ 2019-08-14T11:59:54+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0445s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0444s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0449s ]
+SQL: SELECT * FROM `app_signlist` WHERE `signday` LIKE '%2019-08-14%'  [ RunTime:0.0453s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0446s ]
+NOTIC: [8] Undefined variable: cb D:\MilFun\Apache24\htdocs\api\api\Home\Controller\IndexController.class.php 第 70 行.
+
+[ 2019-08-14T11:59:54+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=033go9p50Se9HD1ylso506Prp50go9pq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+
+[ 2019-08-14T11:59:56+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getMembersInfos&secretKey=MilFun&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0459s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0458s ]
+
+[ 2019-08-14T11:59:58+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0454s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0451s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0453s ]
+
+[ 2019-08-14T12:00:17+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0438s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0432s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0431s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0436s ]
+
+[ 2019-08-14T12:00:39+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0495s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0485s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0490s ]
+
+[ 2019-08-14T12:02:22+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0476s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0452s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0444s ]
+
+[ 2019-08-14T12:02:55+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0456s ]
+
+[ 2019-08-14T12:02:55+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0372s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0362s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `app_signlist` WHERE `signday` LIKE '%2019-08-14%'  [ RunTime:0.0362s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0368s ]
+NOTIC: [8] Undefined variable: cb D:\MilFun\Apache24\htdocs\api\api\Home\Controller\IndexController.class.php 第 70 行.
+
+[ 2019-08-14T12:02:55+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=043XShfe0SDxXu12S5fe0diAfe0XShfU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+
+[ 2019-08-14T13:54:32+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0437s ]
+
+[ 2019-08-14T13:54:32+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0391s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `app_signlist` WHERE `signday` LIKE '%2019-08-14%'  [ RunTime:0.0408s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0396s ]
+NOTIC: [8] Undefined variable: cb D:\MilFun\Apache24\htdocs\api\api\Home\Controller\IndexController.class.php 第 70 行.
+
+[ 2019-08-14T13:54:32+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=033MsU8W0y1Cl12TQN8W0TwJ8W0MsU8m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+
+[ 2019-08-14T13:54:34+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getMembersInfos&secretKey=MilFun&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0454s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0440s ]
+
+[ 2019-08-14T13:54:36+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0356s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0354s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0359s ]
+
+[ 2019-08-14T13:55:21+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0454s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0455s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0447s ]
+
+[ 2019-08-14T13:55:46+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0495s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0499s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0496s ]
+
+[ 2019-08-14T13:57:39+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0438s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0442s ]
+
+[ 2019-08-14T13:58:40+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0355s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0375s ]
+
+[ 2019-08-14T13:58:40+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0493s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0501s ]
+SQL: SELECT * FROM `app_signlist` WHERE `signday` LIKE '%2019-08-14%'  [ RunTime:0.0501s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0502s ]
+NOTIC: [8] Undefined variable: cb D:\MilFun\Apache24\htdocs\api\api\Home\Controller\IndexController.class.php 第 70 行.
+
+[ 2019-08-14T13:58:40+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=0230FlaZ1RAUOT0kBC8Z1m7laZ10FlaL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+
+[ 2019-08-14T13:58:41+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getMembersInfos&secretKey=MilFun&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0377s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0366s ]
+
+[ 2019-08-14T13:58:42+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0497s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0490s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0495s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0487s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0504s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0494s ]
+
+[ 2019-08-14T14:00:52+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0458s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0451s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0452s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0462s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0456s ]
+
+[ 2019-08-14T14:01:54+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0437s ]
+
+[ 2019-08-14T14:01:54+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0457s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0458s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `app_signlist` WHERE `signday` LIKE '%2019-08-14%'  [ RunTime:0.0452s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0463s ]
+NOTIC: [8] Undefined variable: cb D:\MilFun\Apache24\htdocs\api\api\Home\Controller\IndexController.class.php 第 70 行.
+
+[ 2019-08-14T14:01:54+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=043tg1Hm1bi7Zq0l6OFm1EEFGm1tg1HT
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+
+[ 2019-08-14T14:01:56+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getMembersInfos&secretKey=MilFun&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0448s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0444s ]
+
+[ 2019-08-14T14:04:54+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0358s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0362s ]
+
+[ 2019-08-14T14:04:54+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0495s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0493s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0506s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0502s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0496s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0495s ]
+
+[ 2019-08-14T14:04:54+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=033UjkPl1Rh5jn0m1jQl1fWfPl1UjkPZ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+
+[ 2019-08-14T14:04:56+08:00 ] ::1 /api/index.php?m=Home&c=index&a=wxreg_user&nickname=MilFun&openid=o-U725Z7epBWVR_BftAZgLMfovns&headimg=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FcOicAicMBT3nUm4utzHWZuOSUjkibWuopawPfGL3TiaUVxRAAiciaujpoF6QoJGNRUticu6YW27mqNpGADx7pWUPvVenA%2F132
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' AND `headimg` = 'https://wx.qlogo.cn/mmopen/vi_32/cOicAicMBT3nUm4utzHWZuOSUjkibWuopawPfGL3TiaUVxRAAiciaujpoF6QoJGNRUticu6YW27mqNpGADx7pWUPvVenA/132' LIMIT 1   [ RunTime:0.0361s ]
+
+[ 2019-08-14T14:04:56+08:00 ] ::1 /api/index.php?m=Home&c=index&a=sign&openid=o-U725Z7epBWVR_BftAZgLMfovns&aid=10008
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0446s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008 LIMIT 1   [ RunTime:0.0436s ]
+
+[ 2019-08-14T14:05:17+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getRank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `app_lesson` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `app_lesson` WHERE `is_show` = 1  [ RunTime:0.0363s ]
+
+[ 2019-08-14T14:05:43+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getLesson
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `app_lesson` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `app_lesson` WHERE `is_show` = 1  [ RunTime:0.0370s ]
+
+[ 2019-08-14T14:05:47+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getMembersInfos&secretKey=MilFun&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0364s ]
+
+[ 2019-08-14T14:05:50+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getGiftList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `app_giftlist` [ RunTime:0.0406s ]
+SQL: SELECT * FROM `app_giftlist` WHERE `is_show` = 1 ORDER BY gid asc  [ RunTime:0.0399s ]
+
+[ 2019-08-14T14:05:53+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0434s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0433s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0435s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0430s ]
+
+[ 2019-08-14T14:06:50+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0496s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0490s ]
+
+[ 2019-08-14T14:06:51+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0384s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0397s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0387s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0387s ]
+
+[ 2019-08-14T14:06:52+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0463s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0440s ]
+
+[ 2019-08-14T14:06:52+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0454s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0451s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0455s ]
+
+[ 2019-08-14T14:06:52+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=0435X1lu00cKEj1mZlju0v5Uku05X1lw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+
+[ 2019-08-14T14:06:53+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getMembersInfos&secretKey=MilFun&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0459s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0456s ]
+
+[ 2019-08-14T14:06:54+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0377s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0368s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0375s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0372s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0370s ]
+
+[ 2019-08-14T14:11:48+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0499s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0503s ]
+
+[ 2019-08-14T14:11:48+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0463s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0444s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0458s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0444s ]
+
+[ 2019-08-14T14:11:48+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=023zjcts10HTyl0nmhqs1Yzuts1zjct9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+
+[ 2019-08-14T14:12:24+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0451s ]
+
+[ 2019-08-14T14:12:24+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0359s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0355s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0355s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0347s ]
+
+[ 2019-08-14T14:12:24+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=0232JToU0WHWKZ18CfpU0FtSoU02JToe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+
+[ 2019-08-14T14:12:27+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getMembersInfos&secretKey=MilFun&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0398s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0403s ]
+
+[ 2019-08-14T14:12:28+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0407s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0401s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0397s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0392s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0398s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0403s ]
+
+[ 2019-08-14T14:13:31+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0448s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0442s ]
+
+[ 2019-08-14T14:13:31+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0458s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0465s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0461s ]
+
+[ 2019-08-14T14:13:31+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=0338F62l0c2RDs124u3l0gZo2l08F62k
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+
+[ 2019-08-14T14:13:32+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getMembersInfos&secretKey=MilFun&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0363s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0351s ]
+
+[ 2019-08-14T14:13:33+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0365s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0361s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0361s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0365s ]
+
+[ 2019-08-14T14:14:05+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0392s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0393s ]
+
+[ 2019-08-14T14:14:05+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0373s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0372s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0373s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0368s ]
+
+[ 2019-08-14T14:14:05+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=0334vB0K1w9yM200aH3K1OCz0K14vB0b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+
+[ 2019-08-14T14:14:05+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getMembersInfos&secretKey=MilFun&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0448s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0442s ]
+
+[ 2019-08-14T14:14:07+08:00 ] ::1 /api/index.php?m=Home&c=index&a=canvas&openid=o-U725Z7epBWVR_BftAZgLMfovns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0454s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_signlist` LIMIT 1   [ RunTime:0.0452s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `app_user` WHERE `openid` = 'o-U725Z7epBWVR_BftAZgLMfovns' LIMIT 1   [ RunTime:0.0452s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0452s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0450s ]
+
+[ 2019-08-14T14:16:18+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getLesson
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002376s ]
+SQL: SHOW COLUMNS FROM `app_lesson` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `app_lesson` WHERE `is_show` = 1  [ RunTime:0.0388s ]
+
+[ 2019-08-14T14:17:57+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0445s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0443s ]
+
+[ 2019-08-14T14:17:58+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0442s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0435s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0451s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0441s ]
+
+[ 2019-08-14T14:17:58+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=033cXsoi2P2FAA07L0mi2vinoi2cXsoO
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+
+[ 2019-08-14T14:18:26+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0468s ]
+
+[ 2019-08-14T14:18:26+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0452s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0444s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0446s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0449s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0450s ]
+
+[ 2019-08-14T14:18:26+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=043SNjqd2UxlhF05GCqd2q6fqd2SNjqv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+
+[ 2019-08-14T14:21:19+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0495s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0494s ]
+
+[ 2019-08-14T14:21:19+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0368s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0369s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0355s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0361s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0361s ]
+
+[ 2019-08-14T14:21:19+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=023fK8ZM1BuHa71CFxVM1O9OYM1fK8ZE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+
+[ 2019-08-14T14:21:31+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0342s ]
+
+[ 2019-08-14T14:21:31+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0363s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0373s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0359s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0362s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0364s ]
+
+[ 2019-08-14T14:21:31+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=043Py6aQ1pa2I31fDB8Q1c47aQ1Py6ae
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+
+[ 2019-08-14T14:21:38+08:00 ] ::1 /api/index.php?m=Home&c=index&a=share
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+
+[ 2019-08-14T14:22:12+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0435s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0438s ]
+
+[ 2019-08-14T14:22:12+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0352s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0362s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0359s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0361s ]
+
+[ 2019-08-14T14:22:12+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=043sBBx821a8CL0ITBu828qDx82sBBx5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+
+[ 2019-08-14T14:22:14+08:00 ] ::1 /api/index.php?m=Home&c=index&a=share
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+
+[ 2019-08-14T14:22:23+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0427s ]
+
+[ 2019-08-14T14:22:23+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0382s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0368s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0367s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0368s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0362s ]
+
+[ 2019-08-14T14:22:24+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=0333w4OI0EArGe2SyMPI0rJmOI03w4Ob
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+
+[ 2019-08-14T14:22:26+08:00 ] ::1 /api/index.php?m=Home&c=index&a=share
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+
+[ 2019-08-14T14:22:46+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0457s ]
+
+[ 2019-08-14T14:22:46+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=023384HS0xyci02rL9GS0xLIGS0384HG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+
+[ 2019-08-14T14:22:46+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0498s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0499s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0503s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0502s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0502s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0494s ]
+
+[ 2019-08-14T14:22:48+08:00 ] ::1 /api/index.php?m=Home&c=index&a=share
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2019-08-14T14:23:12+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0451s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0444s ]
+
+[ 2019-08-14T14:23:12+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0381s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0372s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0366s ]
+
+[ 2019-08-14T14:23:13+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=033htm412JriqW0Pr3312xEs412htm4t
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+
+[ 2019-08-14T14:23:14+08:00 ] ::1 /api/index.php?m=Home&c=index&a=share
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002101s ]
+
+[ 2019-08-14T14:24:05+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0396s ]
+
+[ 2019-08-14T14:24:06+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0448s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0470s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0459s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0443s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0445s ]
+
+[ 2019-08-14T14:24:06+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=023ddKsm0KQAfr1YGcrm0PkBsm0ddKss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+
+[ 2019-08-14T14:24:18+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0449s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0441s ]
+
+[ 2019-08-14T14:24:18+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0354s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0359s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0355s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0377s ]
+
+[ 2019-08-14T14:24:18+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=043gCP880ozIIE1gYe8804jL880gCP84
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+
+[ 2019-08-14T14:24:45+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0457s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0448s ]
+
+[ 2019-08-14T14:24:45+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0499s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0503s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0498s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0505s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0501s ]
+
+[ 2019-08-14T14:24:45+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=033KljRC0j5pFk2RQeRC0mKTQC0KljRs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+
+[ 2019-08-14T14:25:11+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0445s ]
+
+[ 2019-08-14T14:25:12+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0458s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0455s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0453s ]
+
+[ 2019-08-14T14:25:12+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=033HWNGH0wg3Qf2xbtEH0um5HH0HWNGx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+
+[ 2019-08-14T14:25:34+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0454s ]
+
+[ 2019-08-14T14:25:34+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0435s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0432s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0427s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0434s ]
+
+[ 2019-08-14T14:25:34+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=033xV5FZ1pOosU0tjWEZ1NdpFZ1xV5FH
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+
+[ 2019-08-14T14:25:38+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0439s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0439s ]
+
+[ 2019-08-14T14:25:38+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0499s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0498s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0501s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0494s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0502s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0492s ]
+
+[ 2019-08-14T14:25:38+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=033CBRAv1u6Iih0LxEzv1QMKAv1CBRAv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+
+[ 2019-08-14T14:25:44+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0486s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0489s ]
+
+[ 2019-08-14T14:25:44+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0353s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0358s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0358s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0359s ]
+
+[ 2019-08-14T14:25:44+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=033C0gI80E5KjF1GY3J80pFiI80C0gIg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+
+[ 2019-08-14T14:25:59+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0509s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0499s ]
+
+[ 2019-08-14T14:25:59+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0362s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0359s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0351s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0363s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0353s ]
+
+[ 2019-08-14T14:25:59+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=043KWkSZ07tAGX1zwbRZ09DlSZ0KWkSu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+
+[ 2019-08-14T14:32:54+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0434s ]
+
+[ 2019-08-14T14:32:55+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0445s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0442s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0436s ]
+
+[ 2019-08-14T14:32:55+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=0235ARvT0r8rz02RFiyT0qXawT05ARv1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+
+[ 2019-08-14T14:33:18+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000434s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0449s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0449s ]
+
+[ 2019-08-14T14:33:18+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=043zRFQl0pV13r1lWbQl0kbTQl0zRFQn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+
+[ 2019-08-14T14:33:18+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0501s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0505s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0508s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0497s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0508s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0501s ]
+
+[ 2019-08-14T14:33:45+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0436s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0441s ]
+
+[ 2019-08-14T14:33:45+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0444s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0442s ]
+
+[ 2019-08-14T14:33:45+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=033kpqdS0CWE562uxmhS0LezdS0kpqdN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+
+[ 2019-08-14T14:33:58+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0443s ]
+
+[ 2019-08-14T14:33:59+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001887s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0363s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0365s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0363s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0365s ]
+
+[ 2019-08-14T14:33:59+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=023dLimT0jZkp02jQloT0go5mT0dLimC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+
+[ 2019-08-14T14:34:31+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0432s ]
+
+[ 2019-08-14T14:34:31+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0391s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0395s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0390s ]
+
+[ 2019-08-14T14:34:31+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=023rWtKD139rs50v0ZGD1fOyKD1rWtK8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+
+[ 2019-08-14T14:34:37+08:00 ] ::1 /api/index.php?m=Home&c=index&a=showBtn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `app_btn` [ RunTime:0.0445s ]
+SQL: SELECT * FROM `app_btn` WHERE `term` = 'index'  [ RunTime:0.0440s ]
+
+[ 2019-08-14T14:34:37+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `app_article` [ RunTime:0.0389s ]
+SQL: SELECT * FROM `app_article` WHERE `type` = 1 ORDER BY aid desc LIMIT 1   [ RunTime:0.0382s ]
+SQL: SHOW COLUMNS FROM `app_signlist` [ RunTime:0.0384s ]
+SQL: SELECT * FROM `app_signlist` WHERE `aid` = 10008  [ RunTime:0.0386s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0392s ]
+SQL: SELECT * FROM `app_user` WHERE `uid` = '81e8554f98fca54bbb287f8cab34dcae923f0ffa' LIMIT 1   [ RunTime:0.0388s ]
+
+[ 2019-08-14T14:34:37+08:00 ] ::1 /api/index.php?m=Home&c=index&a=getWxUerinfo&code=023eugpa0iqyUx1TVvna05cppa0eugpf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+
